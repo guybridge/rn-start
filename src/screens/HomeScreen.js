@@ -38,6 +38,12 @@ const HomeScreen = (props) => {
             style={styles.buttonStyle}>
            </Button>
 
+           <Button 
+            title="Go to square screen"
+            onPress={()=> navigate("Squares")}
+            style={styles.buttonStyle}>
+           </Button>
+
 
         </View>
 
